@@ -223,8 +223,11 @@ server <- function(input, output, session) {
       #addTiles() %>%
       addProviderTiles(providers$CartoDB.Positron) %>%
       #addRasterImage(layer_1(), col = pal,opacity = 0.8,layerId = "first") %>%  
-      setMaxBounds(lng1 = -3.5, lat1 = 42.2, lng2=20, lat2=58) %>%
-      addRectangles(lng1 = -3.5, lat1 = 42.2, lng2 = 20, lat2 = 58, fill = FALSE)
+      setMaxBounds(lng1 = -3.834759, lat1 = 43.170241, lng2=20.219425, lat2=58.052226) %>%
+      #addRectangles(lng1 = -3.5, lat1 = 42.2, lng2 = 20, lat2 = 58, fill = FALSE) %>%
+      addPolygons(lng = c(-0.326501,5.470697,10.331397,13.519183,17.628903,20.219425,13.030434,7.577484,-3.834759),
+                  lat = c(43.170241,43.535726,43.646881,43.600792,43.362164,57.637294,58.032444,58.052226,57.333792),
+                  fill =FALSE)
   )
   
   observe({

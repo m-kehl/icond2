@@ -26,7 +26,7 @@ f_leaflet_icond2 <- function(icond2_data){
     #addTiles() %>%
     addProviderTiles(providers$CartoDB.Positron) %>%
     addRasterImage(layer_1, col = pal,opacity = 0.8,layerId = "first") %>%  
-    setMaxBounds(lng1 = -3.5, lat1 = 42.2, lng2=20, lat2=58) %>%
+    #setMaxBounds(lng1 = -3.5, lat1 = 42.2, lng2=20, lat2=58) %>%
     addRectangles(lng1 = -3.5, lat1 = 42.2, lng2 = 20, lat2 = 58, fill = FALSE) #%>%
     # setView(lng = 9,lat = 48,zoom = 8) #     %>%
     # addLegend(pal = pal, values = values(icond2_processed_2),title = "Rain [mm/h]")
