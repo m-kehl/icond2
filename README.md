@@ -1,4 +1,4 @@
-# Project Title
+## Project Title
 
 R Shiny project to interactively visualize forecast weather data on a leaflet map
 
