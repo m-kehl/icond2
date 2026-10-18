@@ -42,12 +42,12 @@ a local installation might be favorable.
 
 The application provides the following functionality:
 
-- **[Map]:** Laubfrosch_icond2 visualizes forecast data
+- **Map:** Laubfrosch_icond2 visualizes forecast data
 (temperature, precipitation, pressure, cloud cover) 2dim on a map for Germany and its surrounding
 countries.
-- **[Point forecast]:** It shows additionally the point forcast for any location
+- **Point forecast:** It shows additionally the point forcast for any location
 in this region. The location can be chosen on the map or via lon/lat.
-- **[Table]:** The point forecast is also displayed numerically in a table.
+- **Table:** The point forecast is also displayed numerically in a table.
 - **Interactive interface:** The user can choose the parameter, time, and location
 for the visualized data.
 
