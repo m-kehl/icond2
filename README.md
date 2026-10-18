@@ -59,7 +59,7 @@ The repository contains the application source code and any supporting files req
 icond2/
 ├── app.R                 # Main Shiny application
 ├── input.R               # input data, e.g., lon/lat for Bundeshauptstädte
-├── R/                    # functions required to run the app, including Shiny server and UI function
+├── functions             # functions required to run the app, including Shiny server and UI function
 ├── www/                  # Static assets (style.css)
 ├── .gitignore            # Files excluded from version control
 └── README.md             # Project documentation
